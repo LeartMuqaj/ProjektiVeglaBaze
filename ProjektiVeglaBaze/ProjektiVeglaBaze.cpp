@@ -53,10 +53,10 @@ int main() {
 
 	} while (vendimi == 'y' || vendimi == 'Y');
 
-    int absoluteValue = (number < 0) ? -number : number;
-    cout << "Absolute value: " << absoluteValue << endl;
+    int vleraAbsolute = (numri < 0) ? -numri : numri;
+    cout << "Vlera absolute: " << vleraAbsolute << endl;
 
-    cout << "Square of the number: " << number * number << endl;
+    cout << "Katrori i numrit: " << numri * numri << endl;
 
 
 
