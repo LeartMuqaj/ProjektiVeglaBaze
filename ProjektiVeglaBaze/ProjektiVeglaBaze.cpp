@@ -53,6 +53,11 @@ int main() {
 
 	} while (vendimi == 'y' || vendimi == 'Y');
 
+    int absoluteValue = (number < 0) ? -number : number;
+    cout << "Absolute value: " << absoluteValue << endl;
+
+
+
 
     return 0;
 }
