@@ -41,8 +41,6 @@ int main() {
         }
     }
     
-    cout << "Cube of the number: " << number * number * number << endl;
-
     if (eshteThjeshte(numri)) {
         cout << "Numri eshte i thjeshte." << endl;
     }
