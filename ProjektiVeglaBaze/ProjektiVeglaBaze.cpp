@@ -2,12 +2,12 @@
 using namespace std;
 
 bool eshteThjeshte(int n) {
-    if (n <= 1) {
+    if (numri <= 1) {
         return false;
     }
 
-    for (int i = 2; i * i <= n; i++) {
-        if (n % i == 0) {
+    for (int i = 2; i * i <= numri; i++) {
+        if (numri % i == 0) {
             return false;
         }
     }
@@ -15,12 +15,12 @@ bool eshteThjeshte(int n) {
 }
 
 int main() {
-    int n;
+    int numri;
     char vendimi;
 
     do{
     cout << "Jepe nje numer: ";
-    cin >> n;
+    cin >> numri;
 
     if (n > 0) {
         cout << "Numri eshte pozitiv." << endl;
@@ -32,8 +32,8 @@ int main() {
         cout << "Numri eshte zero." << endl;
     }
 
-    if (n != 0) {
-        if (n % 2 == 0) {
+    if (numri != 0) {
+        if (numri % 2 == 0) {
             cout << "Numri eshte cift." << endl;
         }
         else {
@@ -53,12 +53,12 @@ int main() {
 
 	} while (vendimi == 'y' || vendimi == 'Y');
 
-    int vleraAbsolute = (n < 0) ? -n : n;
+    int vleraAbsolute = (numri < 0) ? -numri : numri;
     cout << "Vlera absolute: " << vleraAbsolute << endl;
 
-    cout << "Katrori i numrit: " << n * n << endl;
+    cout << "Katrori i numrit: " << numri * numri << endl;
 
-    cout << "Kubi i numrit: " << n * n * n << endl;
+    cout << "Kubi i numrit: " << numri * numri * numri << endl;
 
 
 
