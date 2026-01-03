@@ -16,7 +16,9 @@ bool eshteThjeshte(int numri) {
 
 int main() {
     int numri;
+    char vendimi;
 
+    do{
     cout << "Jepe nje numer: ";
     cin >> numri;
 
@@ -45,6 +47,11 @@ int main() {
     else {
         cout << "Numri nuk eshte i thjeshte." << endl;
     }
+
+    cout << "\nDeshiron te analizosh nje numer tjeter (y/n): ";
+    cin >> vendimi;
+
+	} while (vendimi == 'y' || vendimi == 'Y');
 
 
     return 0;
