@@ -27,6 +27,8 @@ int main() {
             cout << "The number is odd." << endl;
         }
     }
+    
+    cout << "Cube of the number: " << number * number * number << endl;
 
     return 0;
 }
