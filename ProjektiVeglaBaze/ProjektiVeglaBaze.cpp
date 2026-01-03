@@ -56,6 +56,8 @@ int main() {
     int absoluteValue = (number < 0) ? -number : number;
     cout << "Absolute value: " << absoluteValue << endl;
 
+    cout << "Square of the number: " << number * number << endl;
+
 
 
 
