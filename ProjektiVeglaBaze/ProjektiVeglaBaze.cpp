@@ -56,9 +56,11 @@ int main() {
     int vleraAbsolute = (numri < 0) ? -numri : numri;
     cout << "Vlera absolute: " << vleraAbsolute << endl;
 
-    cout << "Katrori i numrit: " << numri * numri << endl;
+	katrori = numri * numri;
+    cout << "Katrori i numrit: " << katrori << endl;
 
-    cout << "Kubi i numrit: " << numri * numri * numri << endl;
+	kubi = numri * numri * numri;
+    cout << "Kubi i numrit: " << kubi << endl;
 
 
 
