@@ -60,6 +60,7 @@ int main() {
 
     cout << "Katrori i numrit: " << numri * numri << endl;
 
+    cout << "Cube of the number: " << number * number * number << endl;
 
 
 
