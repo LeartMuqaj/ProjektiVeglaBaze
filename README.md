@@ -1,4 +1,4 @@
-Projekti ne Vegla Baze me Visual Studio dhe Github
+# Projekti ne Vegla Baze me Visual Studio dhe Github
 
 # Analizuesi i Numrave (C++)
 
