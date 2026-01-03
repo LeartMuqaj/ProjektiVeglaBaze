@@ -1,13 +1,13 @@
 # Projekti ne Vegla Baze me Visual Studio dhe Github
 
-# Analizuesi i Numrave (C++)
+## Analizuesi i Numrave (C++)
 
 Ky është një program i thjeshtë në C++ për analizimin e numrave.  
 Programi ofron disa funksionalitete të ndryshme dhe është i ndarë në degë (**branches**) për të praktikuar përdorimin e **pull requests** në GitHub.
 
 ---
 
-## Funksionalitetet
+### Funksionalitetet
 
 Programi aktualisht përfshin:
 
