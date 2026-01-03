@@ -15,6 +15,6 @@ Programi aktualisht përfshin:
 2. **Kontrolli çift/tek** – Njofton nëse numri është çift ose tek.  
 3. **Kontrolli prime** – Njofton nëse numri është numër prim.  
 4. **Vlera absolute** – Shfaq vlerën absolute të numrit.  
-5. **Katërkëndëshi i numrit** – Llogarit katrorin e numrit.  
+5. **Katrori i numrit** – Llogarit katrorin e numrit.  
 6. **Kub i numrit** – Llogarit kubin e numrit.  
 7. **Menuja e përsëritshme** – Lejon përdoruesin të analizojë disa numra brenda të njëjtit ekzekutim.
