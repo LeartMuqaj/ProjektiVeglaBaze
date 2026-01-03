@@ -1,32 +1,51 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int number;
-
-    cout << "Enter a number: ";
-    cin >> number;
-
-    // Check positive, negative, or zero
-    if (number > 0) {
-        cout << "The number is positive." << endl;
+bool eshteThjeshte(int numri) {
+    if (numri <= 1) {
+        return false;
     }
-    else if (number < 0) {
-        cout << "The number is negative." << endl;
+
+    for (int i = 2; i * i <= numri; i++) {
+        if (numri % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+int main() {
+    int numri;
+
+    cout << "Jepe nje numer: ";
+    cin >> numri;
+
+    if (numri > 0) {
+        cout << "Numri eshte pozitiv." << endl;
+    }
+    else if (numri < 0) {
+        cout << "Numri eshte negativ." << endl;
     }
     else {
-        cout << "The number is zero." << endl;
+        cout << "Numri eshte zero." << endl;
     }
 
-    // Check even or odd
-    if (number != 0) {
-        if (number % 2 == 0) {
-            cout << "The number is even." << endl;
+    if (numri != 0) {
+        if (numri % 2 == 0) {
+            cout << "Numri eshte cift." << endl;
         }
         else {
-            cout << "The number is odd." << endl;
+            cout << "Numri eshte tek." << endl;
         }
     }
+
+    if (eshteThjeshte(numri)) {
+        cout << "Numri eshte i thjeshte." << endl;
+    }
+    else {
+        cout << "Numri nuk eshte i thjeshte." << endl;
+    }
+
 
     return 0;
 }
